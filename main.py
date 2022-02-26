@@ -1,6 +1,5 @@
-from flask import Flask,jsonify
+from flask import Flask,jsonify,request
 import os
-
 
 app = Flask(__name__)
 
@@ -10,8 +9,22 @@ data = {
 }
 
 @app.route("/",methods =["GET"])
-def api():
+def apiGet():
     return jsonify(data)
+
+@app.route("/",methods =["POST"])
+def apiPost():
+    result = request.get_json()
+    if(result.get('title')):
+        return jsonify({
+            'statusCode': 200,
+            'body':result,
+        })
+    else:
+        return jsonify({
+            'statusCode': 404,
+            'body':{},
+        })
 
 if(__name__ == '__main__'):
     port = int(os.environ.get("PORT",5000))
