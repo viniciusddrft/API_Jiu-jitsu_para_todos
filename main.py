@@ -3,19 +3,20 @@ import os
 
 app = Flask(__name__)
 
-data = {
-    "title" : "Homem Aranha",
-    "url" : "https://homemaranha.com.br"
-}
+data = []
 
 @app.route("/",methods =["GET"])
 def apiGet():
-    return jsonify(data)
+    return jsonify({
+            'statusCode': 200,
+            'body':data,
+        })
 
 @app.route("/",methods =["POST"])
 def apiPost():
     result = request.get_json()
     if(result.get('title')):
+        data.append(result)
         return jsonify({
             'statusCode': 200,
             'body':result,
