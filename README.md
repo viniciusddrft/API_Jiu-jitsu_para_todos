@@ -7,48 +7,48 @@
 está api conta com os seguintes caminhos
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/
+https://jiu-jitsu-para-todos.herokuapp.com/quiz
 ```
 este caminho mostra todos os dados do quiz
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/english
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/english
 ```
 este caminho mostra os dados do quiz no idioma inglês
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/english/whitebelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/english/whitebelt
 ```
 este caminho mostra os dados do quiz nível faixa branca no idiona inglês
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/english/bluebelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/english/bluebelt
 ```
 este caminho mostra os dados do quiz nível faixa azul no idiona inglês
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/english/blackbelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/english/blackbelt
 ```
 este caminho mostra os dados do quiz nível faixa preta no idiona inglês
 
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/portuguese
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/portuguese
 ```
 este caminho mostra os dados do quiz no idioma português
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/portuguese/whitebelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/portuguese/whitebelt
 ```
 este caminho mostra os dados do quiz nível faixa branca no idioma português
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/portuguese/bluebelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/portuguese/bluebelt
 ```
 este caminho mostra os dados do quiz nível faixa azul no idioma português
 
 ```bash
-https://jiu-jitsu-para-todos.herokuapp.com/portuguese/blackbelt
+https://jiu-jitsu-para-todos.herokuapp.com/quiz/portuguese/blackbelt
 ```
 este caminho mostra os dados do quiz nível faixa preta no idioma português
 
