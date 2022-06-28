@@ -11,9 +11,10 @@ from src.db.data_portuguese_all import dataPortugueseAll
 from src.db.data_all import dataAll
 
 app = Flask(__name__)
+app.config['JSON_AS_ASCII'] = False
 
 
-@app.route("/", methods=["GET"])
+@app.route("/quiz", methods=["GET"])
 def apiGetAll():
     return jsonify({
         'statusCode': 200,
@@ -21,7 +22,7 @@ def apiGetAll():
     })
 
 
-@app.route("/english", methods=["GET"])
+@app.route("/quiz/english", methods=["GET"])
 def apiGetEnglish():
     return jsonify({
         'statusCode': 200,
@@ -29,7 +30,7 @@ def apiGetEnglish():
     })
 
 
-@app.route("/english/whitebelt", methods=["GET"])
+@app.route("/quiz/english/whitebelt", methods=["GET"])
 def apiGetEnglishWhiteBelt():
     return jsonify({
         'statusCode': 200,
@@ -37,7 +38,7 @@ def apiGetEnglishWhiteBelt():
     })
 
 
-@app.route("/english/bluebelt", methods=["GET"])
+@app.route("/quiz/english/bluebelt", methods=["GET"])
 def apiGetEnglishBlueBelt():
     return jsonify({
         'statusCode': 200,
@@ -45,7 +46,7 @@ def apiGetEnglishBlueBelt():
     })
 
 
-@app.route("/english/blackbelt", methods=["GET"])
+@app.route("/quiz/english/blackbelt", methods=["GET"])
 def apiGetEnglishBlackBelt():
     return jsonify({
         'statusCode': 200,
@@ -53,7 +54,7 @@ def apiGetEnglishBlackBelt():
     })
 
 
-@app.route("/portuguese", methods=["GET"])
+@app.route("/quiz/portuguese", methods=["GET"])
 def apiGetPotuguese():
     return jsonify({
         'statusCode': 200,
@@ -61,7 +62,7 @@ def apiGetPotuguese():
     })
 
 
-@app.route("/portuguese/whitebelt", methods=["GET"])
+@app.route("/quiz/portuguese/whitebelt", methods=["GET"])
 def apiGetPotugueseWhiteBelt():
     return jsonify({
         'statusCode': 200,
@@ -69,7 +70,7 @@ def apiGetPotugueseWhiteBelt():
     })
 
 
-@app.route("/portuguese/bluebelt", methods=["GET"])
+@app.route("/quiz/portuguese/bluebelt", methods=["GET"])
 def apiGetPotugueseBlueBelt():
     return jsonify({
         'statusCode': 200,
@@ -77,7 +78,7 @@ def apiGetPotugueseBlueBelt():
     })
 
 
-@app.route("/portuguese/blackbelt", methods=["GET"])
+@app.route("/quiz/portuguese/blackbelt", methods=["GET"])
 def apiGetPotugueseBlackBelt():
     return jsonify({
         'statusCode': 200,
