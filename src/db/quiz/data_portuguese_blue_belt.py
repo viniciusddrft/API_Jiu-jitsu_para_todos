@@ -1,6 +1,6 @@
 
-from src.models.list_questions_model import ListQuestionsModel
-from src.models.question_model import QuestionModel
+from src.models.quiz.list_questions_model import ListQuestionsModel
+from src.models.quiz.question_model import QuestionModel
 
 
 dataPortugueseBlueBelt = ListQuestionsModel([

@@ -52,5 +52,10 @@ https://jiu-jitsu-para-todos.herokuapp.com/quiz/portuguese/blackbelt
 ```
 este caminho mostra os dados do quiz nível faixa preta no idioma português
 
+```bash
+https://jiu-jitsu-para-todos.herokuapp.com/wallpapers
+```
+este caminho mostra todos wallpapers
+
 
 ### sinta se a vontate para contribuir tanto com a api quanto com o app e faça uso da API a vontate ;)

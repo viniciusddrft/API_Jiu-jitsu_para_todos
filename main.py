@@ -1,14 +1,15 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 import os
-from src.db.data_english_white_belt import dataEnglishWhiteBelt
-from src.db.data_english_blue_belt import dataEnglishBlueBelt
-from src.db.data_english_black_belt import dataEnglishBlackBelt
-from src.db.data_english_all import dataEnglishAll
-from src.db.data_portuguese_white_belt import dataPortugueseWhiteBelt
-from src.db.data_portuguese_blue_belt import dataPortugueseBlueBelt
-from src.db.data_portuguese_black_belt import dataPortugueseBlackBelt
-from src.db.data_portuguese_all import dataPortugueseAll
-from src.db.data_all import dataAll
+from src.db.quiz.data_english_white_belt import dataEnglishWhiteBelt
+from src.db.quiz.data_english_blue_belt import dataEnglishBlueBelt
+from src.db.quiz.data_english_black_belt import dataEnglishBlackBelt
+from src.db.quiz.data_english_all import dataEnglishAll
+from src.db.quiz.data_portuguese_white_belt import dataPortugueseWhiteBelt
+from src.db.quiz.data_portuguese_blue_belt import dataPortugueseBlueBelt
+from src.db.quiz.data_portuguese_black_belt import dataPortugueseBlackBelt
+from src.db.quiz.data_portuguese_all import dataPortugueseAll
+from src.db.quiz.data_all import dataAll
+from src.db.wallpapers.data_wallpaper import wallpapers
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
@@ -83,6 +84,14 @@ def apiGetPotugueseBlackBelt():
     return jsonify({
         'statusCode': 200,
         'body': dataPortugueseBlackBelt.toJson(),
+    })
+
+
+@app.route("/wallpapers", methods=["GET"])
+def apiGetWallpapers():
+    return jsonify({
+        'statusCode': 200,
+        'body': wallpapers.toJson(),
     })
 
 
