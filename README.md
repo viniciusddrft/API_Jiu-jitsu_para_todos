@@ -7,6 +7,12 @@
 está api conta com os seguintes caminhos
 
 ```bash
+https://jiu-jitsu-para-todos.herokuapp.com
+```
+este caminho mostra todos os dados da api
+
+
+```bash
 https://jiu-jitsu-para-todos.herokuapp.com/quiz
 ```
 este caminho mostra todos os dados do quiz
