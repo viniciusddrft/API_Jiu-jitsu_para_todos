@@ -7,4 +7,5 @@ Jinja2==3.0.3
 MarkupSafe==2.1.1
 pycodestyle==2.8.0
 toml==0.10.2
+waitress==2.1.2
 Werkzeug==2.0.3
