@@ -43,8 +43,8 @@ dataEnglishWhiteBelt = ListQuestionsModel([
     ),
     QuestionModel(
         question='What’s the last belt of jiu-jitsu?',
-        options=['Red', 'Black', 'Red and Black', 'Prata'],
-        rightAnswer='Silver'
+        options=['Red', 'Black', 'Red and Black', 'Silver'],
+        rightAnswer='Red'
     ),
     QuestionModel(
         question='How much scores does the guard pass gives?',
