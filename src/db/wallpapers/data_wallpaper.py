@@ -7,7 +7,7 @@ wallpapers = ListWallpapersModel(
     [WallpaperModel(url='https://i.postimg.cc/gcwPpp3P/1.jpg'),
      WallpaperModel(url='https://i.postimg.cc/PJvyR2LB/2.jpg'),
      WallpaperModel(url='https://i.postimg.cc/HkDZfD93/3.jpg'),
-     WallpaperModel(url='https://i.postimg.cc/hGM2zJW3/4.jpg'),
+     WallpaperModel(url='https://i.postimg.cc/Hxm58GM4/4.png'),
      WallpaperModel(url='https://i.postimg.cc/ryHYNtdB/5.jpg'),
      WallpaperModel(url='https://i.postimg.cc/TwwCrRT2/6.png'),
      WallpaperModel(url='https://i.postimg.cc/rw1nTnhT/7.png'),
@@ -23,5 +23,4 @@ wallpapers = ListWallpapersModel(
      WallpaperModel(url='https://i.postimg.cc/JhQ2N6Jx/17.png'),
      WallpaperModel(url='https://i.postimg.cc/rpTHtXdz/18.png'),
      WallpaperModel(url='https://i.postimg.cc/PrB9T8TW/19.png'),
-
      ])
