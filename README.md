@@ -4,7 +4,6 @@
 
 ### Código do app -> <https://github.com/viniciusddrft/Jiu-jitsu_para_todos>
 
-a
 está api conta com os seguintes caminhos
 
 ```bash
