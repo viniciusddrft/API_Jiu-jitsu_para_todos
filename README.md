@@ -1,6 +1,4 @@
-# Api usada no App Jiu-jitsu para todos :)
-
-## Está API contém as perguntas usadas no quiz do app
+# Api usada no App Jiu-jitsu para todos :)(discontinued)
 
 ### Código do app -> <https://github.com/viniciusddrft/Jiu-jitsu_para_todos>
 
