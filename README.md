@@ -1,4 +1,4 @@
-# Api usada no App Jiu-jitsu para todos :)(discontinued)
+# Api usada no App Jiu-jitsu para todos :)(descontinuado)
 
 ### Código do app -> <https://github.com/viniciusddrft/Jiu-jitsu_para_todos>
 
